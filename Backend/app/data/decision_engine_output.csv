@@ -1,0 +1,337 @@
+inverter,date,status,root_level,fault_type,confidence,confidence_score,likely_causes,recommended_action
+INVERTER1,2026-01-22,MONITOR,GRID,VOLTAGE FLUCTUATION,MEDIUM,0.7,,
+INVERTER1,2026-01-23,MONITOR,INVERTER,SYSTEM ANOMALY,LOW,0.2,,
+INVERTER1,2026-01-24,MONITOR,GRID,PHASE IMBALANCE,MEDIUM,0.7,,
+INVERTER1,2026-01-25,STABLE,GRID,GRID IMBALANCE,HIGH,0.85,,
+INVERTER1,2026-01-26,STABLE,GRID,VOLTAGE FLUCTUATION,HIGH,0.85,,
+INVERTER1,2026-01-27,DEGRADED,GRID,VOLTAGE FLUCTUATION,HIGH,0.83,,Due to changes in weather conditions
+INVERTER1,2026-01-28,CRITICAL,GRID,VOLTAGE FLUCTUATION,HIGH,0.83,Voltage instability,"Check reactive power of inverter, Measure grid voltage"
+INVERTER1,2026-01-29,CRITICAL,INVERTER,SYSTEM ANOMALY,MEDIUM,0.5,Unidentified electrical anomaly,Check inverter logs and alarms
+INVERTER1,2026-01-30,CRITICAL,GRID,VOLTAGE FLUCTUATION,HIGH,1.0,"Voltage instability, Reduced power output, Voltage imbalance","Check reactive power of inverter, Measure grid voltage"
+INVERTER1,2026-01-31,CRITICAL,STRING,PHASE IMBALANCE,HIGH,1.0,"Input power fluctuation, Phase imbalance",Check string currents and connectors
+INVERTER1,2026-02-01,CRITICAL,INVERTER,SYSTEM ANOMALY,MEDIUM,0.5,Unidentified electrical anomaly,Check inverter logs and alarms
+INVERTER1,2026-02-02,CRITICAL,INVERTER,SYSTEM ANOMALY,MEDIUM,0.5,Unidentified electrical anomaly,Check inverter logs and alarms
+INVERTER1,2026-02-03,CRITICAL,INVERTER,SYSTEM ANOMALY,MEDIUM,0.5,Unidentified electrical anomaly,Check inverter logs and alarms
+INVERTER1,2026-02-04,CRITICAL,INVERTER,SYSTEM ANOMALY,MEDIUM,0.5,Unidentified electrical anomaly,Check inverter logs and alarms
+INVERTER1,2026-02-05,CRITICAL,GRID,VOLTAGE FLUCTUATION,HIGH,1.0,"Voltage instability, Reduced power output, Voltage imbalance","Check reactive power of inverter, Measure grid voltage"
+INVERTER1,2026-02-06,CRITICAL,INVERTER,SYSTEM ANOMALY,MEDIUM,0.5,Unidentified electrical anomaly,Check inverter logs and alarms
+INVERTER1,2026-02-07,CRITICAL,INVERTER,SYSTEM ANOMALY,MEDIUM,0.5,Unidentified electrical anomaly,Check inverter logs and alarms
+INVERTER1,2026-02-08,DEGRADED,INVERTER,SYSTEM ANOMALY,MEDIUM,0.5,,Due to changes in weather conditions
+INVERTER1,2026-02-09,CRITICAL,INVERTER,SYSTEM ANOMALY,MEDIUM,0.5,Unidentified electrical anomaly,Check inverter logs and alarms
+INVERTER1,2026-02-10,DEGRADED,INVERTER,SYSTEM ANOMALY,MEDIUM,0.5,,Due to changes in weather conditions
+INVERTER1,2026-02-11,DEGRADED,GRID,VOLTAGE FLUCTUATION,HIGH,0.83,,Due to changes in weather conditions
+INVERTER1,2026-02-12,DEGRADED,INVERTER,SYSTEM ANOMALY,MEDIUM,0.5,,Due to changes in weather conditions
+INVERTER1,2026-02-13,CRITICAL,INVERTER,SYSTEM ANOMALY,MEDIUM,0.5,Unidentified electrical anomaly,Check inverter logs and alarms
+INVERTER1,2026-02-14,DEGRADED,GRID,GRID IMBALANCE,HIGH,1.0,,Due to changes in weather conditions
+INVERTER10,2026-01-22,MONITOR,GRID,VOLTAGE FLUCTUATION,MEDIUM,0.53,,
+INVERTER10,2026-01-23,CRITICAL,GRID,PHASE IMBALANCE,HIGH,1.0,"Reduced power output, Phase imbalance","Check transformer LV side phase voltages, DC combiner box fuse"
+INVERTER10,2026-01-24,MONITOR,GRID,PHASE IMBALANCE,MEDIUM,0.7,,
+INVERTER10,2026-01-25,STABLE,GRID,PHASE IMBALANCE,HIGH,0.85,,
+INVERTER10,2026-01-26,STABLE,GRID,VOLTAGE FLUCTUATION,MEDIUM,0.68,,
+INVERTER10,2026-01-27,CRITICAL,GRID,VOLTAGE FLUCTUATION,HIGH,0.83,"Voltage instability, Voltage imbalance","Check reactive power of inverter, Measure grid voltage"
+INVERTER10,2026-01-28,CRITICAL,INVERTER,SYSTEM ANOMALY,MEDIUM,0.5,Unidentified electrical anomaly,Check inverter logs and alarms
+INVERTER10,2026-01-29,CRITICAL,GRID,VOLTAGE FLUCTUATION,HIGH,0.83,"Voltage instability, Voltage imbalance","Check reactive power of inverter, Measure grid voltage"
+INVERTER10,2026-01-30,CRITICAL,INVERTER,SYSTEM ANOMALY,MEDIUM,0.5,Unidentified electrical anomaly,Check inverter logs and alarms
+INVERTER10,2026-01-31,CRITICAL,GRID,PHASE IMBALANCE,HIGH,1.0,"Reduced power output, Phase imbalance","Check transformer LV side phase voltages, DC combiner box fuse"
+INVERTER10,2026-02-01,CRITICAL,GRID,VOLTAGE FLUCTUATION,HIGH,1.0,"Voltage instability, Reduced power output","Check reactive power of inverter, Measure grid voltage"
+INVERTER10,2026-02-02,CRITICAL,INVERTER,SYSTEM ANOMALY,MEDIUM,0.5,Unidentified electrical anomaly,Check inverter logs and alarms
+INVERTER10,2026-02-03,CRITICAL,GRID,VOLTAGE FLUCTUATION,HIGH,1.0,"Voltage instability, Reduced power output","Check reactive power of inverter, Measure grid voltage"
+INVERTER10,2026-02-04,CRITICAL,INVERTER,SYSTEM ANOMALY,MEDIUM,0.5,Unidentified electrical anomaly,Check inverter logs and alarms
+INVERTER10,2026-02-05,CRITICAL,GRID,VOLTAGE FLUCTUATION,HIGH,1.0,"Voltage instability, Reduced power output","Check reactive power of inverter, Measure grid voltage"
+INVERTER10,2026-02-06,CRITICAL,INVERTER,SYSTEM ANOMALY,MEDIUM,0.5,Unidentified electrical anomaly,Check inverter logs and alarms
+INVERTER10,2026-02-07,CRITICAL,INVERTER,SYSTEM ANOMALY,MEDIUM,0.5,Unidentified electrical anomaly,Check inverter logs and alarms
+INVERTER10,2026-02-08,CRITICAL,INVERTER,SYSTEM ANOMALY,MEDIUM,0.5,Unidentified electrical anomaly,Check inverter logs and alarms
+INVERTER10,2026-02-09,DEGRADED,INVERTER,SYSTEM ANOMALY,MEDIUM,0.5,,Due to changes in weather conditions
+INVERTER10,2026-02-10,DEGRADED,INVERTER,SYSTEM ANOMALY,MEDIUM,0.5,,Due to changes in weather conditions
+INVERTER10,2026-02-11,CRITICAL,INVERTER,SYSTEM ANOMALY,MEDIUM,0.5,Unidentified electrical anomaly,Check inverter logs and alarms
+INVERTER10,2026-02-12,DEGRADED,INVERTER,SYSTEM ANOMALY,MEDIUM,0.5,,Due to changes in weather conditions
+INVERTER10,2026-02-13,DEGRADED,INVERTER,SYSTEM ANOMALY,MEDIUM,0.5,,Due to changes in weather conditions
+INVERTER10,2026-02-14,DEGRADED,INVERTER,SYSTEM ANOMALY,MEDIUM,0.5,,Due to changes in weather conditions
+INVERTER11,2026-01-22,MONITOR,STRING,PHASE IMBALANCE,MEDIUM,0.7,,
+INVERTER11,2026-01-23,STABLE,GRID,VOLTAGE FLUCTUATION,HIGH,0.85,,
+INVERTER11,2026-01-24,MONITOR,STRING,PHASE IMBALANCE,MEDIUM,0.7,,
+INVERTER11,2026-01-25,STABLE,STRING,PHASE IMBALANCE,HIGH,0.85,,
+INVERTER11,2026-01-26,STABLE,GRID,VOLTAGE FLUCTUATION,MEDIUM,0.68,,
+INVERTER11,2026-01-27,DEGRADED,GRID,VOLTAGE FLUCTUATION,HIGH,1.0,,Due to changes in weather conditions
+INVERTER11,2026-01-28,CRITICAL,GRID,PHASE IMBALANCE,HIGH,1.0,"Reduced power output, Phase imbalance","Check transformer LV side phase voltages, DC combiner box fuse"
+INVERTER11,2026-01-29,CRITICAL,GRID,VOLTAGE FLUCTUATION,HIGH,1.0,Voltage instability,"Check reactive power of inverter, Measure grid voltage"
+INVERTER11,2026-01-30,CRITICAL,GRID,VOLTAGE IMBALANCE,HIGH,1.0,"Reduced power output, Voltage imbalance, Phase imbalance",Check phase voltage differences
+INVERTER11,2026-01-31,CRITICAL,GRID,VOLTAGE FLUCTUATION,HIGH,0.83,"Voltage instability, Reduced power output","Check reactive power of inverter, Measure grid voltage"
+INVERTER11,2026-02-01,CRITICAL,GRID,PHASE IMBALANCE,HIGH,1.0,"Reduced power output, Phase imbalance","Check transformer LV side phase voltages, DC combiner box fuse"
+INVERTER11,2026-02-02,CRITICAL,GRID,VOLTAGE FLUCTUATION,HIGH,0.83,Voltage instability,"Check reactive power of inverter, Measure grid voltage"
+INVERTER11,2026-02-03,CRITICAL,GRID,VOLTAGE IMBALANCE,HIGH,0.83,"Reduced power output, Voltage imbalance",Check phase voltage differences
+INVERTER11,2026-02-04,CRITICAL,GRID,VOLTAGE FLUCTUATION,HIGH,0.83,Voltage instability,"Check reactive power of inverter, Measure grid voltage"
+INVERTER11,2026-02-05,CRITICAL,GRID,VOLTAGE FLUCTUATION,HIGH,1.0,"Voltage instability, Reduced power output","Check reactive power of inverter, Measure grid voltage"
+INVERTER11,2026-02-06,CRITICAL,GRID,VOLTAGE FLUCTUATION,HIGH,1.0,Voltage instability,"Check reactive power of inverter, Measure grid voltage"
+INVERTER11,2026-02-07,CRITICAL,INVERTER,SYSTEM ANOMALY,MEDIUM,0.5,Unidentified electrical anomaly,Check inverter logs and alarms
+INVERTER11,2026-02-08,DEGRADED,INVERTER,SYSTEM ANOMALY,MEDIUM,0.5,,Due to changes in weather conditions
+INVERTER11,2026-02-09,DEGRADED,GRID,VOLTAGE FLUCTUATION,HIGH,1.0,,Due to changes in weather conditions
+INVERTER11,2026-02-10,DEGRADED,GRID,VOLTAGE FLUCTUATION,HIGH,1.0,,Due to changes in weather conditions
+INVERTER11,2026-02-11,DEGRADED,GRID,VOLTAGE FLUCTUATION,HIGH,0.83,,Due to changes in weather conditions
+INVERTER11,2026-02-12,DEGRADED,INVERTER,SYSTEM ANOMALY,MEDIUM,0.5,,Due to changes in weather conditions
+INVERTER11,2026-02-13,DEGRADED,GRID,VOLTAGE FLUCTUATION,HIGH,1.0,,Due to changes in weather conditions
+INVERTER11,2026-02-14,DEGRADED,GRID,VOLTAGE FLUCTUATION,HIGH,1.0,,Due to changes in weather conditions
+INVERTER12,2026-01-22,DEGRADED,GRID,VOLTAGE FLUCTUATION,MEDIUM,0.68,,Due to changes in weather conditions
+INVERTER12,2026-01-23,STABLE,GRID,VOLTAGE FLUCTUATION,MEDIUM,0.68,,
+INVERTER12,2026-01-24,MONITOR,GRID,PHASE IMBALANCE,MEDIUM,0.53,,
+INVERTER12,2026-01-25,STABLE,GRID,VOLTAGE FLUCTUATION,HIGH,0.85,,
+INVERTER12,2026-01-26,STABLE,GRID,VOLTAGE FLUCTUATION,MEDIUM,0.68,,
+INVERTER12,2026-01-27,DEGRADED,GRID,VOLTAGE FLUCTUATION,HIGH,1.0,,Due to changes in weather conditions
+INVERTER12,2026-01-28,CRITICAL,GRID,PHASE IMBALANCE,HIGH,1.0,"Reduced power output, Phase imbalance","Check transformer LV side phase voltages, DC combiner box fuse"
+INVERTER12,2026-01-29,CRITICAL,INVERTER,SYSTEM ANOMALY,MEDIUM,0.5,Unidentified electrical anomaly,Check inverter logs and alarms
+INVERTER12,2026-01-30,CRITICAL,GRID,VOLTAGE FLUCTUATION,HIGH,0.83,"Voltage instability, Voltage imbalance","Check reactive power of inverter, Measure grid voltage"
+INVERTER12,2026-01-31,CRITICAL,GRID,VOLTAGE IMBALANCE,HIGH,0.83,"Reduced power output, Voltage imbalance",Check phase voltage differences
+INVERTER12,2026-02-01,CRITICAL,GRID,VOLTAGE FLUCTUATION,HIGH,1.0,"Voltage instability, Voltage imbalance","Check reactive power of inverter, Measure grid voltage"
+INVERTER12,2026-02-02,CRITICAL,INVERTER,SYSTEM ANOMALY,MEDIUM,0.5,Unidentified electrical anomaly,Check inverter logs and alarms
+INVERTER12,2026-02-03,CRITICAL,INVERTER,SYSTEM ANOMALY,MEDIUM,0.5,Unidentified electrical anomaly,Check inverter logs and alarms
+INVERTER12,2026-02-04,CRITICAL,GRID,VOLTAGE FLUCTUATION,HIGH,1.0,Voltage instability,"Check reactive power of inverter, Measure grid voltage"
+INVERTER12,2026-02-05,CRITICAL,GRID,VOLTAGE FLUCTUATION,HIGH,0.83,"Voltage instability, Voltage imbalance","Check reactive power of inverter, Measure grid voltage"
+INVERTER12,2026-02-06,CRITICAL,INVERTER,SYSTEM ANOMALY,MEDIUM,0.5,Unidentified electrical anomaly,Check inverter logs and alarms
+INVERTER12,2026-02-07,CRITICAL,INVERTER,SYSTEM ANOMALY,MEDIUM,0.5,Unidentified electrical anomaly,Check inverter logs and alarms
+INVERTER12,2026-02-08,DEGRADED,GRID,VOLTAGE FLUCTUATION,HIGH,1.0,,Due to changes in weather conditions
+INVERTER12,2026-02-09,DEGRADED,INVERTER,SYSTEM ANOMALY,MEDIUM,0.5,,Due to changes in weather conditions
+INVERTER12,2026-02-10,DEGRADED,INVERTER,SYSTEM ANOMALY,MEDIUM,0.5,,Due to changes in weather conditions
+INVERTER12,2026-02-11,DEGRADED,INVERTER,SYSTEM ANOMALY,MEDIUM,0.5,,Due to changes in weather conditions
+INVERTER12,2026-02-12,DEGRADED,INVERTER,SYSTEM ANOMALY,MEDIUM,0.5,,Due to changes in weather conditions
+INVERTER12,2026-02-13,DEGRADED,GRID,VOLTAGE FLUCTUATION,HIGH,0.83,,Due to changes in weather conditions
+INVERTER12,2026-02-14,DEGRADED,INVERTER,SYSTEM ANOMALY,MEDIUM,0.5,,Due to changes in weather conditions
+INVERTER13,2026-01-22,MONITOR,INVERTER,SYSTEM ANOMALY,LOW,0.2,,
+INVERTER13,2026-01-23,STABLE,STRING,PHASE IMBALANCE,HIGH,0.85,,
+INVERTER13,2026-01-24,MONITOR,GRID,VOLTAGE FLUCTUATION,MEDIUM,0.53,,
+INVERTER13,2026-01-25,CRITICAL,GRID,VOLTAGE FLUCTUATION,HIGH,0.83,"Voltage instability, Reduced power output","Check reactive power of inverter, Measure grid voltage"
+INVERTER13,2026-01-26,STABLE,GRID,GRID IMBALANCE,HIGH,0.85,,
+INVERTER13,2026-01-27,DEGRADED,GRID,VOLTAGE FLUCTUATION,HIGH,0.83,,Due to changes in weather conditions
+INVERTER13,2026-01-28,CRITICAL,GRID,VOLTAGE FLUCTUATION,HIGH,0.83,Voltage instability,"Check reactive power of inverter, Measure grid voltage"
+INVERTER13,2026-01-29,CRITICAL,INVERTER,SYSTEM ANOMALY,MEDIUM,0.5,Unidentified electrical anomaly,Check inverter logs and alarms
+INVERTER13,2026-01-30,CRITICAL,GRID,VOLTAGE FLUCTUATION,HIGH,0.83,"Voltage instability, Voltage imbalance","Check reactive power of inverter, Measure grid voltage"
+INVERTER13,2026-01-31,CRITICAL,GRID,VOLTAGE FLUCTUATION,HIGH,0.83,"Voltage instability, Reduced power output","Check reactive power of inverter, Measure grid voltage"
+INVERTER13,2026-02-01,CRITICAL,GRID,VOLTAGE FLUCTUATION,HIGH,0.83,Voltage instability,"Check reactive power of inverter, Measure grid voltage"
+INVERTER13,2026-02-02,CRITICAL,GRID,VOLTAGE FLUCTUATION,HIGH,0.83,Voltage instability,"Check reactive power of inverter, Measure grid voltage"
+INVERTER13,2026-02-03,CRITICAL,GRID,PHASE IMBALANCE,HIGH,1.0,"Reduced power output, Phase imbalance","Check transformer LV side phase voltages, DC combiner box fuse"
+INVERTER13,2026-02-04,CRITICAL,GRID,VOLTAGE FLUCTUATION,HIGH,0.83,"Voltage instability, Reduced power output","Check reactive power of inverter, Measure grid voltage"
+INVERTER13,2026-02-05,CRITICAL,INVERTER,SYSTEM ANOMALY,MEDIUM,0.5,Unidentified electrical anomaly,Check inverter logs and alarms
+INVERTER13,2026-02-06,CRITICAL,GRID,VOLTAGE FLUCTUATION,HIGH,0.83,Voltage instability,"Check reactive power of inverter, Measure grid voltage"
+INVERTER13,2026-02-07,CRITICAL,GRID,VOLTAGE FLUCTUATION,HIGH,0.83,"Voltage instability, Voltage imbalance","Check reactive power of inverter, Measure grid voltage"
+INVERTER13,2026-02-08,DEGRADED,GRID,VOLTAGE FLUCTUATION,HIGH,1.0,,Due to changes in weather conditions
+INVERTER13,2026-02-09,DEGRADED,GRID,VOLTAGE FLUCTUATION,HIGH,0.83,,Due to changes in weather conditions
+INVERTER13,2026-02-10,DEGRADED,GRID,VOLTAGE FLUCTUATION,HIGH,0.83,,Due to changes in weather conditions
+INVERTER13,2026-02-11,DEGRADED,INVERTER,SYSTEM ANOMALY,MEDIUM,0.5,,Due to changes in weather conditions
+INVERTER13,2026-02-12,DEGRADED,INVERTER,SYSTEM ANOMALY,MEDIUM,0.5,,Due to changes in weather conditions
+INVERTER13,2026-02-13,DEGRADED,GRID,VOLTAGE FLUCTUATION,HIGH,0.83,,Due to changes in weather conditions
+INVERTER13,2026-02-14,DEGRADED,INVERTER,SYSTEM ANOMALY,MEDIUM,0.5,,Due to changes in weather conditions
+INVERTER14,2026-01-22,CRITICAL,GRID,VOLTAGE IMBALANCE,HIGH,1.0,"Voltage imbalance, Phase imbalance",Check phase voltage differences
+INVERTER14,2026-01-23,STABLE,GRID,VOLTAGE FLUCTUATION,HIGH,0.85,,
+INVERTER14,2026-01-24,MONITOR,GRID,PHASE IMBALANCE,MEDIUM,0.7,,
+INVERTER14,2026-01-25,STABLE,GRID,VOLTAGE FLUCTUATION,MEDIUM,0.68,,
+INVERTER14,2026-01-26,STABLE,GRID,VOLTAGE FLUCTUATION,MEDIUM,0.68,,
+INVERTER14,2026-01-27,CRITICAL,GRID,VOLTAGE FLUCTUATION,HIGH,0.83,"Voltage instability, Voltage imbalance","Check reactive power of inverter, Measure grid voltage"
+INVERTER14,2026-01-28,CRITICAL,GRID,VOLTAGE FLUCTUATION,HIGH,0.83,Voltage instability,"Check reactive power of inverter, Measure grid voltage"
+INVERTER14,2026-01-29,CRITICAL,INVERTER,SYSTEM ANOMALY,MEDIUM,0.5,Unidentified electrical anomaly,Check inverter logs and alarms
+INVERTER14,2026-01-30,CRITICAL,GRID,VOLTAGE FLUCTUATION,HIGH,1.0,"Voltage instability, Voltage imbalance","Check reactive power of inverter, Measure grid voltage"
+INVERTER14,2026-01-31,CRITICAL,GRID,PHASE IMBALANCE,HIGH,1.0,"Reduced power output, Phase imbalance","Check transformer LV side phase voltages, DC combiner box fuse"
+INVERTER14,2026-02-01,CRITICAL,GRID,VOLTAGE FLUCTUATION,HIGH,1.0,"Voltage instability, Reduced power output","Check reactive power of inverter, Measure grid voltage"
+INVERTER14,2026-02-02,CRITICAL,GRID,VOLTAGE FLUCTUATION,HIGH,1.0,"Voltage instability, Reduced power output, Voltage imbalance","Check reactive power of inverter, Measure grid voltage"
+INVERTER14,2026-02-03,CRITICAL,GRID,VOLTAGE FLUCTUATION,HIGH,0.83,Voltage instability,"Check reactive power of inverter, Measure grid voltage"
+INVERTER14,2026-02-04,CRITICAL,GRID,GRID IMBALANCE,HIGH,1.0,Grid instability,Check grid supply quality
+INVERTER14,2026-02-05,CRITICAL,GRID,VOLTAGE FLUCTUATION,HIGH,0.83,Voltage instability,"Check reactive power of inverter, Measure grid voltage"
+INVERTER14,2026-02-06,CRITICAL,INVERTER,SYSTEM ANOMALY,MEDIUM,0.5,Unidentified electrical anomaly,Check inverter logs and alarms
+INVERTER14,2026-02-07,CRITICAL,GRID,VOLTAGE FLUCTUATION,HIGH,0.83,"Voltage instability, Voltage imbalance","Check reactive power of inverter, Measure grid voltage"
+INVERTER14,2026-02-08,DEGRADED,INVERTER,SYSTEM ANOMALY,MEDIUM,0.5,,Due to changes in weather conditions
+INVERTER14,2026-02-09,DEGRADED,INVERTER,SYSTEM ANOMALY,MEDIUM,0.5,,Due to changes in weather conditions
+INVERTER14,2026-02-10,DEGRADED,INVERTER,SYSTEM ANOMALY,MEDIUM,0.5,,Due to changes in weather conditions
+INVERTER14,2026-02-11,DEGRADED,INVERTER,SYSTEM ANOMALY,MEDIUM,0.5,,Due to changes in weather conditions
+INVERTER14,2026-02-12,DEGRADED,INVERTER,SYSTEM ANOMALY,MEDIUM,0.5,,Due to changes in weather conditions
+INVERTER14,2026-02-13,DEGRADED,INVERTER,SYSTEM ANOMALY,MEDIUM,0.5,,Due to changes in weather conditions
+INVERTER14,2026-02-14,DEGRADED,GRID,VOLTAGE FLUCTUATION,HIGH,1.0,,Due to changes in weather conditions
+INVERTER2,2026-01-22,MONITOR,GRID,VOLTAGE FLUCTUATION,MEDIUM,0.53,,
+INVERTER2,2026-01-23,STABLE,GRID,VOLTAGE FLUCTUATION,HIGH,0.85,,
+INVERTER2,2026-01-24,MONITOR,GRID,PHASE IMBALANCE,MEDIUM,0.7,,
+INVERTER2,2026-01-25,STABLE,INVERTER,SYSTEM ANOMALY,LOW,0.35,,
+INVERTER2,2026-01-26,STABLE,GRID,VOLTAGE FLUCTUATION,MEDIUM,0.68,,
+INVERTER2,2026-01-27,STABLE,STRING,PHASE IMBALANCE,HIGH,1.0,,
+INVERTER2,2026-01-28,CRITICAL,STRING,GRID IMBALANCE,HIGH,1.0,Grid instability,Check string currents and connectors
+INVERTER2,2026-01-29,CRITICAL,GRID,VOLTAGE FLUCTUATION,HIGH,1.0,Voltage instability,"Check reactive power of inverter, Measure grid voltage"
+INVERTER2,2026-01-30,CRITICAL,GRID,PHASE IMBALANCE,HIGH,1.0,"Reduced power output, Phase imbalance","Check transformer LV side phase voltages, DC combiner box fuse"
+INVERTER2,2026-01-31,CRITICAL,GRID,PHASE IMBALANCE,HIGH,1.0,"Reduced power output, Phase imbalance","Check transformer LV side phase voltages, DC combiner box fuse"
+INVERTER2,2026-02-01,CRITICAL,GRID,VOLTAGE FLUCTUATION,HIGH,1.0,"Voltage instability, Reduced power output","Check reactive power of inverter, Measure grid voltage"
+INVERTER2,2026-02-02,CRITICAL,INVERTER,SYSTEM ANOMALY,MEDIUM,0.5,Unidentified electrical anomaly,Check inverter logs and alarms
+INVERTER2,2026-02-03,CRITICAL,GRID,VOLTAGE FLUCTUATION,HIGH,0.83,Voltage instability,"Check reactive power of inverter, Measure grid voltage"
+INVERTER2,2026-02-04,CRITICAL,GRID,PHASE IMBALANCE,HIGH,1.0,"Reduced power output, Phase imbalance","Check transformer LV side phase voltages, DC combiner box fuse"
+INVERTER2,2026-02-05,CRITICAL,INVERTER,SYSTEM ANOMALY,MEDIUM,0.5,Unidentified electrical anomaly,Check inverter logs and alarms
+INVERTER2,2026-02-06,CRITICAL,GRID,VOLTAGE FLUCTUATION,HIGH,0.83,Voltage instability,"Check reactive power of inverter, Measure grid voltage"
+INVERTER2,2026-02-07,CRITICAL,INVERTER,SYSTEM ANOMALY,MEDIUM,0.5,Unidentified electrical anomaly,Check inverter logs and alarms
+INVERTER2,2026-02-08,DEGRADED,INVERTER,SYSTEM ANOMALY,MEDIUM,0.5,,Due to changes in weather conditions
+INVERTER2,2026-02-09,DEGRADED,INVERTER,SYSTEM ANOMALY,MEDIUM,0.5,,Due to changes in weather conditions
+INVERTER2,2026-02-10,CRITICAL,INVERTER,SYSTEM ANOMALY,MEDIUM,0.5,Unidentified electrical anomaly,Check inverter logs and alarms
+INVERTER2,2026-02-11,DEGRADED,INVERTER,SYSTEM ANOMALY,MEDIUM,0.5,,Due to changes in weather conditions
+INVERTER2,2026-02-12,DEGRADED,INVERTER,SYSTEM ANOMALY,MEDIUM,0.5,,Due to changes in weather conditions
+INVERTER2,2026-02-13,DEGRADED,INVERTER,SYSTEM ANOMALY,MEDIUM,0.5,,Due to changes in weather conditions
+INVERTER2,2026-02-14,DEGRADED,INVERTER,SYSTEM ANOMALY,MEDIUM,0.5,,Due to changes in weather conditions
+INVERTER3,2026-01-22,MONITOR,GRID,VOLTAGE FLUCTUATION,MEDIUM,0.53,,
+INVERTER3,2026-01-23,MONITOR,STRING,PHASE IMBALANCE,MEDIUM,0.7,,
+INVERTER3,2026-01-24,MONITOR,GRID,VOLTAGE FLUCTUATION,MEDIUM,0.53,,
+INVERTER3,2026-01-25,STABLE,GRID,GRID IMBALANCE,HIGH,0.85,,
+INVERTER3,2026-01-26,STABLE,GRID,VOLTAGE IMBALANCE,HIGH,0.85,,
+INVERTER3,2026-01-27,DEGRADED,GRID,VOLTAGE FLUCTUATION,HIGH,1.0,,Due to changes in weather conditions
+INVERTER3,2026-01-28,CRITICAL,INVERTER,SYSTEM ANOMALY,MEDIUM,0.5,Unidentified electrical anomaly,Check inverter logs and alarms
+INVERTER3,2026-01-29,CRITICAL,GRID,VOLTAGE FLUCTUATION,HIGH,1.0,"Voltage instability, Voltage imbalance","Check reactive power of inverter, Measure grid voltage"
+INVERTER3,2026-01-30,CRITICAL,GRID,VOLTAGE FLUCTUATION,HIGH,1.0,"Voltage instability, Reduced power output, Voltage imbalance","Check reactive power of inverter, Measure grid voltage"
+INVERTER3,2026-01-31,CRITICAL,STRING,PHASE IMBALANCE,HIGH,1.0,"Input power fluctuation, Phase imbalance",Check string currents and connectors
+INVERTER3,2026-02-01,CRITICAL,GRID,GRID IMBALANCE,HIGH,1.0,Grid instability,Check grid supply quality
+INVERTER3,2026-02-02,CRITICAL,INVERTER,SYSTEM ANOMALY,MEDIUM,0.5,Unidentified electrical anomaly,Check inverter logs and alarms
+INVERTER3,2026-02-03,CRITICAL,GRID,VOLTAGE FLUCTUATION,HIGH,1.0,"Voltage instability, Reduced power output, Voltage imbalance","Check reactive power of inverter, Measure grid voltage"
+INVERTER3,2026-02-04,CRITICAL,INVERTER,SYSTEM ANOMALY,MEDIUM,0.5,Unidentified electrical anomaly,Check inverter logs and alarms
+INVERTER3,2026-02-05,CRITICAL,INVERTER,SYSTEM ANOMALY,MEDIUM,0.5,Unidentified electrical anomaly,Check inverter logs and alarms
+INVERTER3,2026-02-06,CRITICAL,INVERTER,SYSTEM ANOMALY,MEDIUM,0.5,Unidentified electrical anomaly,Check inverter logs and alarms
+INVERTER3,2026-02-07,CRITICAL,INVERTER,SYSTEM ANOMALY,MEDIUM,0.5,Unidentified electrical anomaly,Check inverter logs and alarms
+INVERTER3,2026-02-08,DEGRADED,INVERTER,SYSTEM ANOMALY,MEDIUM,0.5,,Due to changes in weather conditions
+INVERTER3,2026-02-09,DEGRADED,INVERTER,SYSTEM ANOMALY,MEDIUM,0.5,,Due to changes in weather conditions
+INVERTER3,2026-02-10,DEGRADED,INVERTER,SYSTEM ANOMALY,MEDIUM,0.5,,Due to changes in weather conditions
+INVERTER3,2026-02-11,DEGRADED,INVERTER,SYSTEM ANOMALY,MEDIUM,0.5,,Due to changes in weather conditions
+INVERTER3,2026-02-12,DEGRADED,INVERTER,SYSTEM ANOMALY,MEDIUM,0.5,,Due to changes in weather conditions
+INVERTER3,2026-02-13,CRITICAL,GRID,VOLTAGE FLUCTUATION,HIGH,0.83,Voltage instability,"Check reactive power of inverter, Measure grid voltage"
+INVERTER3,2026-02-14,CRITICAL,INVERTER,SYSTEM ANOMALY,MEDIUM,0.5,Unidentified electrical anomaly,Check inverter logs and alarms
+INVERTER4,2026-01-22,MONITOR,GRID,GRID IMBALANCE,MEDIUM,0.7,,
+INVERTER4,2026-01-23,STABLE,GRID,VOLTAGE FLUCTUATION,MEDIUM,0.68,,
+INVERTER4,2026-01-24,MONITOR,GRID,PHASE IMBALANCE,MEDIUM,0.7,,
+INVERTER4,2026-01-25,STABLE,GRID,VOLTAGE FLUCTUATION,HIGH,0.85,,
+INVERTER4,2026-01-26,CRITICAL,GRID,PHASE IMBALANCE,HIGH,1.0,"Reduced power output, Phase imbalance","Check transformer LV side phase voltages, DC combiner box fuse"
+INVERTER4,2026-01-27,CRITICAL,GRID,VOLTAGE FLUCTUATION,HIGH,1.0,"Voltage instability, Reduced power output, Voltage imbalance","Check reactive power of inverter, Measure grid voltage"
+INVERTER4,2026-01-28,CRITICAL,GRID,PHASE IMBALANCE,HIGH,1.0,"Reduced power output, Phase imbalance","Check transformer LV side phase voltages, DC combiner box fuse"
+INVERTER4,2026-01-29,CRITICAL,INVERTER,SYSTEM ANOMALY,MEDIUM,0.5,Unidentified electrical anomaly,Check inverter logs and alarms
+INVERTER4,2026-01-30,CRITICAL,GRID,VOLTAGE FLUCTUATION,HIGH,1.0,"Voltage instability, Voltage imbalance","Check reactive power of inverter, Measure grid voltage"
+INVERTER4,2026-01-31,CRITICAL,GRID,PHASE IMBALANCE,HIGH,1.0,"Reduced power output, Phase imbalance","Check transformer LV side phase voltages, DC combiner box fuse"
+INVERTER4,2026-02-01,CRITICAL,GRID,VOLTAGE FLUCTUATION,HIGH,1.0,"Voltage instability, Voltage imbalance","Check reactive power of inverter, Measure grid voltage"
+INVERTER4,2026-02-02,CRITICAL,INVERTER,SYSTEM ANOMALY,MEDIUM,0.5,Unidentified electrical anomaly,Check inverter logs and alarms
+INVERTER4,2026-02-03,CRITICAL,INVERTER,SYSTEM ANOMALY,MEDIUM,0.5,Unidentified electrical anomaly,Check inverter logs and alarms
+INVERTER4,2026-02-04,CRITICAL,INVERTER,SYSTEM ANOMALY,MEDIUM,0.5,Unidentified electrical anomaly,Check inverter logs and alarms
+INVERTER4,2026-02-05,CRITICAL,INVERTER,SYSTEM ANOMALY,MEDIUM,0.5,Unidentified electrical anomaly,Check inverter logs and alarms
+INVERTER4,2026-02-06,CRITICAL,INVERTER,SYSTEM ANOMALY,MEDIUM,0.5,Unidentified electrical anomaly,Check inverter logs and alarms
+INVERTER4,2026-02-07,CRITICAL,INVERTER,SYSTEM ANOMALY,MEDIUM,0.5,Unidentified electrical anomaly,Check inverter logs and alarms
+INVERTER4,2026-02-08,DEGRADED,INVERTER,SYSTEM ANOMALY,MEDIUM,0.5,,Due to changes in weather conditions
+INVERTER4,2026-02-09,DEGRADED,GRID,VOLTAGE FLUCTUATION,HIGH,0.83,,Due to changes in weather conditions
+INVERTER4,2026-02-10,DEGRADED,INVERTER,SYSTEM ANOMALY,MEDIUM,0.5,,Due to changes in weather conditions
+INVERTER4,2026-02-11,DEGRADED,INVERTER,SYSTEM ANOMALY,MEDIUM,0.5,,Due to changes in weather conditions
+INVERTER4,2026-02-12,DEGRADED,INVERTER,SYSTEM ANOMALY,MEDIUM,0.5,,Due to changes in weather conditions
+INVERTER4,2026-02-13,DEGRADED,INVERTER,SYSTEM ANOMALY,MEDIUM,0.5,,Due to changes in weather conditions
+INVERTER4,2026-02-14,CRITICAL,GRID,VOLTAGE FLUCTUATION,HIGH,1.0,"Voltage instability, Reduced power output, Voltage imbalance","Check reactive power of inverter, Measure grid voltage"
+INVERTER5,2026-01-22,MONITOR,GRID,VOLTAGE FLUCTUATION,MEDIUM,0.53,,
+INVERTER5,2026-01-23,CRITICAL,GRID,VOLTAGE FLUCTUATION,HIGH,1.0,"Voltage instability, Reduced power output, Voltage imbalance","Check reactive power of inverter, Measure grid voltage"
+INVERTER5,2026-01-24,MONITOR,STRING,PHASE IMBALANCE,MEDIUM,0.7,,
+INVERTER5,2026-01-25,STABLE,GRID,VOLTAGE FLUCTUATION,HIGH,0.85,,
+INVERTER5,2026-01-26,STABLE,GRID,VOLTAGE FLUCTUATION,MEDIUM,0.68,,
+INVERTER5,2026-01-27,DEGRADED,GRID,VOLTAGE FLUCTUATION,HIGH,1.0,,Due to changes in weather conditions
+INVERTER5,2026-01-28,CRITICAL,GRID,VOLTAGE FLUCTUATION,HIGH,1.0,Voltage instability,"Check reactive power of inverter, Measure grid voltage"
+INVERTER5,2026-01-29,CRITICAL,INVERTER,SYSTEM ANOMALY,MEDIUM,0.5,Unidentified electrical anomaly,Check inverter logs and alarms
+INVERTER5,2026-01-30,CRITICAL,GRID,GRID IMBALANCE,HIGH,1.0,Grid instability,Check grid supply quality
+INVERTER5,2026-01-31,CRITICAL,GRID,VOLTAGE FLUCTUATION,HIGH,1.0,"Voltage instability, Voltage imbalance","Check reactive power of inverter, Measure grid voltage"
+INVERTER5,2026-02-01,CRITICAL,GRID,VOLTAGE FLUCTUATION,HIGH,0.83,"Voltage instability, Voltage imbalance","Check reactive power of inverter, Measure grid voltage"
+INVERTER5,2026-02-02,CRITICAL,INVERTER,SYSTEM ANOMALY,MEDIUM,0.5,Unidentified electrical anomaly,Check inverter logs and alarms
+INVERTER5,2026-02-03,CRITICAL,INVERTER,SYSTEM ANOMALY,MEDIUM,0.5,Unidentified electrical anomaly,Check inverter logs and alarms
+INVERTER5,2026-02-04,CRITICAL,GRID,VOLTAGE IMBALANCE,HIGH,0.83,"Reduced power output, Voltage imbalance",Check phase voltage differences
+INVERTER5,2026-02-05,CRITICAL,GRID,GRID IMBALANCE,HIGH,1.0,Grid instability,Check grid supply quality
+INVERTER5,2026-02-06,CRITICAL,GRID,VOLTAGE FLUCTUATION,HIGH,0.83,Voltage instability,"Check reactive power of inverter, Measure grid voltage"
+INVERTER5,2026-02-07,CRITICAL,INVERTER,SYSTEM ANOMALY,MEDIUM,0.5,Unidentified electrical anomaly,Check inverter logs and alarms
+INVERTER5,2026-02-08,DEGRADED,INVERTER,SYSTEM ANOMALY,MEDIUM,0.5,,Due to changes in weather conditions
+INVERTER5,2026-02-09,DEGRADED,INVERTER,SYSTEM ANOMALY,MEDIUM,0.5,,Due to changes in weather conditions
+INVERTER5,2026-02-10,DEGRADED,INVERTER,SYSTEM ANOMALY,MEDIUM,0.5,,Due to changes in weather conditions
+INVERTER5,2026-02-11,DEGRADED,INVERTER,SYSTEM ANOMALY,MEDIUM,0.5,,Due to changes in weather conditions
+INVERTER5,2026-02-12,DEGRADED,INVERTER,SYSTEM ANOMALY,MEDIUM,0.5,,Due to changes in weather conditions
+INVERTER5,2026-02-13,DEGRADED,GRID,VOLTAGE FLUCTUATION,HIGH,1.0,,Due to changes in weather conditions
+INVERTER5,2026-02-14,DEGRADED,GRID,VOLTAGE FLUCTUATION,HIGH,1.0,,Due to changes in weather conditions
+INVERTER6,2026-01-22,MONITOR,GRID,VOLTAGE FLUCTUATION,MEDIUM,0.53,,
+INVERTER6,2026-01-23,CRITICAL,GRID,PHASE IMBALANCE,HIGH,1.0,"Reduced power output, Phase imbalance","Check transformer LV side phase voltages, DC combiner box fuse"
+INVERTER6,2026-01-24,MONITOR,GRID,PHASE IMBALANCE,MEDIUM,0.7,,
+INVERTER6,2026-01-25,STABLE,INVERTER,SYSTEM ANOMALY,LOW,0.35,,
+INVERTER6,2026-01-26,STABLE,GRID,VOLTAGE FLUCTUATION,MEDIUM,0.68,,
+INVERTER6,2026-01-27,DEGRADED,STRING,PHASE IMBALANCE,HIGH,1.0,,Due to changes in weather conditions
+INVERTER6,2026-01-28,CRITICAL,INVERTER,SYSTEM ANOMALY,MEDIUM,0.5,Unidentified electrical anomaly,Check inverter logs and alarms
+INVERTER6,2026-01-29,CRITICAL,GRID,VOLTAGE FLUCTUATION,HIGH,0.83,Voltage instability,"Check reactive power of inverter, Measure grid voltage"
+INVERTER6,2026-01-30,CRITICAL,GRID,GRID IMBALANCE,HIGH,1.0,Grid instability,Check grid supply quality
+INVERTER6,2026-01-31,CRITICAL,GRID,VOLTAGE FLUCTUATION,HIGH,0.83,Voltage instability,"Check reactive power of inverter, Measure grid voltage"
+INVERTER6,2026-02-01,CRITICAL,GRID,VOLTAGE FLUCTUATION,HIGH,1.0,"Voltage instability, Reduced power output, Voltage imbalance","Check reactive power of inverter, Measure grid voltage"
+INVERTER6,2026-02-02,CRITICAL,GRID,VOLTAGE FLUCTUATION,HIGH,1.0,"Voltage instability, Voltage imbalance","Check reactive power of inverter, Measure grid voltage"
+INVERTER6,2026-02-03,CRITICAL,GRID,VOLTAGE FLUCTUATION,HIGH,0.83,Voltage instability,"Check reactive power of inverter, Measure grid voltage"
+INVERTER6,2026-02-04,CRITICAL,GRID,VOLTAGE FLUCTUATION,HIGH,1.0,"Voltage instability, Voltage imbalance","Check reactive power of inverter, Measure grid voltage"
+INVERTER6,2026-02-05,CRITICAL,INVERTER,SYSTEM ANOMALY,MEDIUM,0.5,Unidentified electrical anomaly,Check inverter logs and alarms
+INVERTER6,2026-02-06,CRITICAL,INVERTER,SYSTEM ANOMALY,MEDIUM,0.5,Unidentified electrical anomaly,Check inverter logs and alarms
+INVERTER6,2026-02-07,CRITICAL,INVERTER,SYSTEM ANOMALY,MEDIUM,0.5,Unidentified electrical anomaly,Check inverter logs and alarms
+INVERTER6,2026-02-08,DEGRADED,INVERTER,SYSTEM ANOMALY,MEDIUM,0.5,,Due to changes in weather conditions
+INVERTER6,2026-02-09,DEGRADED,GRID,VOLTAGE FLUCTUATION,HIGH,1.0,,Due to changes in weather conditions
+INVERTER6,2026-02-10,DEGRADED,GRID,VOLTAGE FLUCTUATION,HIGH,0.83,,Due to changes in weather conditions
+INVERTER6,2026-02-11,DEGRADED,GRID,VOLTAGE FLUCTUATION,HIGH,0.83,,Due to changes in weather conditions
+INVERTER6,2026-02-12,DEGRADED,INVERTER,SYSTEM ANOMALY,MEDIUM,0.5,,Due to changes in weather conditions
+INVERTER6,2026-02-13,DEGRADED,INVERTER,SYSTEM ANOMALY,MEDIUM,0.5,,Due to changes in weather conditions
+INVERTER6,2026-02-14,DEGRADED,INVERTER,SYSTEM ANOMALY,MEDIUM,0.5,,Due to changes in weather conditions
+INVERTER7,2026-01-22,MONITOR,GRID,VOLTAGE FLUCTUATION,MEDIUM,0.7,,
+INVERTER7,2026-01-23,STABLE,INVERTER,SYSTEM ANOMALY,LOW,0.35,,
+INVERTER7,2026-01-24,DEGRADED,GRID,VOLTAGE FLUCTUATION,MEDIUM,0.68,,Due to changes in weather conditions
+INVERTER7,2026-01-25,STABLE,GRID,VOLTAGE FLUCTUATION,MEDIUM,0.68,,
+INVERTER7,2026-01-26,CRITICAL,STRING,PHASE IMBALANCE,HIGH,1.0,"Input power fluctuation, Phase imbalance",Check string currents and connectors
+INVERTER7,2026-01-27,CRITICAL,GRID,VOLTAGE FLUCTUATION,HIGH,0.83,"Voltage instability, Reduced power output","Check reactive power of inverter, Measure grid voltage"
+INVERTER7,2026-01-28,CRITICAL,GRID,VOLTAGE FLUCTUATION,HIGH,0.83,"Voltage instability, Voltage imbalance","Check reactive power of inverter, Measure grid voltage"
+INVERTER7,2026-01-29,CRITICAL,INVERTER,SYSTEM ANOMALY,MEDIUM,0.5,Unidentified electrical anomaly,Check inverter logs and alarms
+INVERTER7,2026-01-30,CRITICAL,GRID,VOLTAGE FLUCTUATION,HIGH,0.83,"Voltage instability, Voltage imbalance","Check reactive power of inverter, Measure grid voltage"
+INVERTER7,2026-01-31,CRITICAL,INVERTER,SYSTEM ANOMALY,MEDIUM,0.5,Unidentified electrical anomaly,Check inverter logs and alarms
+INVERTER7,2026-02-01,CRITICAL,GRID,VOLTAGE FLUCTUATION,HIGH,1.0,"Voltage instability, Reduced power output","Check reactive power of inverter, Measure grid voltage"
+INVERTER7,2026-02-02,CRITICAL,GRID,VOLTAGE FLUCTUATION,HIGH,0.83,Voltage instability,"Check reactive power of inverter, Measure grid voltage"
+INVERTER7,2026-02-03,CRITICAL,INVERTER,SYSTEM ANOMALY,MEDIUM,0.5,Unidentified electrical anomaly,Check inverter logs and alarms
+INVERTER7,2026-02-04,CRITICAL,GRID,VOLTAGE FLUCTUATION,HIGH,1.0,"Voltage instability, Voltage imbalance","Check reactive power of inverter, Measure grid voltage"
+INVERTER7,2026-02-05,CRITICAL,GRID,VOLTAGE FLUCTUATION,HIGH,0.83,"Voltage instability, Reduced power output","Check reactive power of inverter, Measure grid voltage"
+INVERTER7,2026-02-06,CRITICAL,GRID,VOLTAGE FLUCTUATION,HIGH,0.83,"Voltage instability, Voltage imbalance","Check reactive power of inverter, Measure grid voltage"
+INVERTER7,2026-02-07,CRITICAL,GRID,VOLTAGE FLUCTUATION,HIGH,1.0,Voltage instability,"Check reactive power of inverter, Measure grid voltage"
+INVERTER7,2026-02-08,DEGRADED,GRID,VOLTAGE FLUCTUATION,HIGH,1.0,,Due to changes in weather conditions
+INVERTER7,2026-02-09,DEGRADED,INVERTER,SYSTEM ANOMALY,MEDIUM,0.5,,Due to changes in weather conditions
+INVERTER7,2026-02-10,DEGRADED,GRID,VOLTAGE FLUCTUATION,HIGH,0.83,,Due to changes in weather conditions
+INVERTER7,2026-02-11,DEGRADED,INVERTER,SYSTEM ANOMALY,MEDIUM,0.5,,Due to changes in weather conditions
+INVERTER7,2026-02-12,DEGRADED,GRID,GRID IMBALANCE,HIGH,1.0,,Due to changes in weather conditions
+INVERTER7,2026-02-13,CRITICAL,GRID,VOLTAGE FLUCTUATION,HIGH,0.83,"Voltage instability, Voltage imbalance","Check reactive power of inverter, Measure grid voltage"
+INVERTER7,2026-02-14,DEGRADED,INVERTER,SYSTEM ANOMALY,MEDIUM,0.5,,Due to changes in weather conditions
+INVERTER8,2026-01-22,MONITOR,GRID,VOLTAGE FLUCTUATION,MEDIUM,0.7,,
+INVERTER8,2026-01-23,STABLE,GRID,PHASE IMBALANCE,HIGH,0.85,,
+INVERTER8,2026-01-24,MONITOR,GRID,PHASE IMBALANCE,MEDIUM,0.7,,
+INVERTER8,2026-01-25,STABLE,GRID,VOLTAGE FLUCTUATION,MEDIUM,0.68,,
+INVERTER8,2026-01-26,STABLE,GRID,VOLTAGE FLUCTUATION,MEDIUM,0.68,,
+INVERTER8,2026-01-27,STABLE,GRID,VOLTAGE FLUCTUATION,HIGH,1.0,,
+INVERTER8,2026-01-28,CRITICAL,INVERTER,SYSTEM ANOMALY,MEDIUM,0.5,Unidentified electrical anomaly,Check inverter logs and alarms
+INVERTER8,2026-01-29,CRITICAL,INVERTER,SYSTEM ANOMALY,MEDIUM,0.5,Unidentified electrical anomaly,Check inverter logs and alarms
+INVERTER8,2026-01-30,CRITICAL,GRID,VOLTAGE FLUCTUATION,HIGH,0.83,"Voltage instability, Voltage imbalance","Check reactive power of inverter, Measure grid voltage"
+INVERTER8,2026-01-31,CRITICAL,GRID,VOLTAGE FLUCTUATION,HIGH,0.83,"Voltage instability, Voltage imbalance","Check reactive power of inverter, Measure grid voltage"
+INVERTER8,2026-02-01,CRITICAL,GRID,GRID IMBALANCE,HIGH,1.0,Grid instability,Check grid supply quality
+INVERTER8,2026-02-02,CRITICAL,GRID,VOLTAGE FLUCTUATION,HIGH,0.83,"Voltage instability, Reduced power output","Check reactive power of inverter, Measure grid voltage"
+INVERTER8,2026-02-03,CRITICAL,GRID,VOLTAGE FLUCTUATION,HIGH,0.83,Voltage instability,"Check reactive power of inverter, Measure grid voltage"
+INVERTER8,2026-02-04,CRITICAL,GRID,PHASE IMBALANCE,HIGH,1.0,"Reduced power output, Phase imbalance","Check transformer LV side phase voltages, DC combiner box fuse"
+INVERTER8,2026-02-05,CRITICAL,GRID,VOLTAGE FLUCTUATION,HIGH,0.83,Voltage instability,"Check reactive power of inverter, Measure grid voltage"
+INVERTER8,2026-02-06,CRITICAL,GRID,PHASE IMBALANCE,HIGH,1.0,"Reduced power output, Phase imbalance","Check transformer LV side phase voltages, DC combiner box fuse"
+INVERTER8,2026-02-07,CRITICAL,INVERTER,SYSTEM ANOMALY,MEDIUM,0.5,Unidentified electrical anomaly,Check inverter logs and alarms
+INVERTER8,2026-02-08,DEGRADED,GRID,VOLTAGE FLUCTUATION,HIGH,1.0,,Due to changes in weather conditions
+INVERTER8,2026-02-09,DEGRADED,GRID,VOLTAGE FLUCTUATION,HIGH,0.83,,Due to changes in weather conditions
+INVERTER8,2026-02-10,DEGRADED,INVERTER,SYSTEM ANOMALY,MEDIUM,0.5,,Due to changes in weather conditions
+INVERTER8,2026-02-11,DEGRADED,INVERTER,SYSTEM ANOMALY,MEDIUM,0.5,,Due to changes in weather conditions
+INVERTER8,2026-02-12,DEGRADED,GRID,VOLTAGE FLUCTUATION,HIGH,0.83,,Due to changes in weather conditions
+INVERTER8,2026-02-13,DEGRADED,INVERTER,SYSTEM ANOMALY,MEDIUM,0.5,,Due to changes in weather conditions
+INVERTER8,2026-02-14,DEGRADED,INVERTER,SYSTEM ANOMALY,MEDIUM,0.5,,Due to changes in weather conditions
+INVERTER9,2026-01-22,MONITOR,GRID,VOLTAGE FLUCTUATION,MEDIUM,0.7,,
+INVERTER9,2026-01-23,STABLE,GRID,VOLTAGE FLUCTUATION,MEDIUM,0.68,,
+INVERTER9,2026-01-24,MONITOR,GRID,VOLTAGE FLUCTUATION,MEDIUM,0.53,,
+INVERTER9,2026-01-25,STABLE,GRID,VOLTAGE FLUCTUATION,MEDIUM,0.68,,
+INVERTER9,2026-01-26,DEGRADED,GRID,GRID IMBALANCE,HIGH,0.85,,Due to changes in weather conditions
+INVERTER9,2026-01-27,STABLE,GRID,PHASE IMBALANCE,HIGH,1.0,,
+INVERTER9,2026-01-28,CRITICAL,INVERTER,SYSTEM ANOMALY,MEDIUM,0.5,Unidentified electrical anomaly,Check inverter logs and alarms
+INVERTER9,2026-01-29,CRITICAL,INVERTER,SYSTEM ANOMALY,MEDIUM,0.5,Unidentified electrical anomaly,Check inverter logs and alarms
+INVERTER9,2026-01-30,CRITICAL,GRID,VOLTAGE FLUCTUATION,HIGH,0.83,Voltage instability,"Check reactive power of inverter, Measure grid voltage"
+INVERTER9,2026-01-31,CRITICAL,GRID,VOLTAGE FLUCTUATION,HIGH,1.0,"Voltage instability, Reduced power output, Voltage imbalance","Check reactive power of inverter, Measure grid voltage"
+INVERTER9,2026-02-01,CRITICAL,GRID,PHASE IMBALANCE,HIGH,1.0,"Reduced power output, Phase imbalance","Check transformer LV side phase voltages, DC combiner box fuse"
+INVERTER9,2026-02-02,CRITICAL,INVERTER,SYSTEM ANOMALY,MEDIUM,0.5,Unidentified electrical anomaly,Check inverter logs and alarms
+INVERTER9,2026-02-03,CRITICAL,INVERTER,SYSTEM ANOMALY,MEDIUM,0.5,Unidentified electrical anomaly,Check inverter logs and alarms
+INVERTER9,2026-02-04,CRITICAL,GRID,VOLTAGE FLUCTUATION,HIGH,1.0,"Voltage instability, Reduced power output","Check reactive power of inverter, Measure grid voltage"
+INVERTER9,2026-02-05,CRITICAL,GRID,VOLTAGE FLUCTUATION,HIGH,1.0,Voltage instability,"Check reactive power of inverter, Measure grid voltage"
+INVERTER9,2026-02-06,CRITICAL,INVERTER,SYSTEM ANOMALY,MEDIUM,0.5,Unidentified electrical anomaly,Check inverter logs and alarms
+INVERTER9,2026-02-07,CRITICAL,INVERTER,SYSTEM ANOMALY,MEDIUM,0.5,Unidentified electrical anomaly,Check inverter logs and alarms
+INVERTER9,2026-02-08,STABLE,INVERTER,SYSTEM ANOMALY,MEDIUM,0.5,,
+INVERTER9,2026-02-09,STABLE,INVERTER,SYSTEM ANOMALY,MEDIUM,0.5,,
+INVERTER9,2026-02-10,STABLE,INVERTER,SYSTEM ANOMALY,MEDIUM,0.5,,
+INVERTER9,2026-02-11,STABLE,INVERTER,SYSTEM ANOMALY,MEDIUM,0.5,,
+INVERTER9,2026-02-12,STABLE,GRID,VOLTAGE FLUCTUATION,HIGH,1.0,,
+INVERTER9,2026-02-13,STABLE,INVERTER,SYSTEM ANOMALY,MEDIUM,0.5,,
+INVERTER9,2026-02-14,STABLE,INVERTER,SYSTEM ANOMALY,MEDIUM,0.5,,
