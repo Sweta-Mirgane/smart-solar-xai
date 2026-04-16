@@ -12,6 +12,11 @@ import { cn } from "@/lib/utils"
 
 const COMPONENT_ORDER = ["inverter", "wms", "ht_mfm", "lt_mfm"]
 
+const normalizePrediction = (item: any) => ({
+  ...item,
+  date: item.date ?? item.timestamp ?? item.latest_time ?? item.time ?? null,
+})
+
 export default function PredictionPage() {
   return (
     <ProtectedLayout>
@@ -34,7 +39,9 @@ function PredictionPageContent() {
       .then((result) => {
         const latestByComponent = COMPONENT_ORDER
           .map((component) =>
-            result.find((item: any) => String(item.component).toLowerCase() === component)
+            result
+              .map((item: any) => normalizePrediction(item))
+              .find((item: any) => String(item.component).toLowerCase() === component)
           )
           .filter(Boolean)
 
@@ -69,9 +76,9 @@ function PredictionPageContent() {
             )
 
             if (index !== -1) {
-              updated[index] = msg.data
+              updated[index] = normalizePrediction(msg.data)
             } else {
-              updated.push(msg.data)
+              updated.push(normalizePrediction(msg.data))
             }
 
             return updated.sort((a, b) => {
@@ -107,7 +114,7 @@ function PredictionPageContent() {
     )
     const result = await res.json()
 
-    setModalData(result)
+    setModalData(result.map((item: any) => normalizePrediction(item)))
     setSelected(component)
   }
 

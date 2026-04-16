@@ -1,8 +1,8 @@
 import asyncio
-
 from fastapi import FastAPI
+from app.database.db_connection import engine
+from app.database.models import Base
 from fastapi.middleware.cors import CORSMiddleware
-
 from app.database.db_connection import SessionLocal
 from app.routes import auth, anomaly, fault, prediction, system
 from app.services.anomaly_service import load_anomalies_from_csv
@@ -11,7 +11,7 @@ from app.services.prediction_service import load_predictions_from_csv
 from app.websocket.ws import router as ws_router
 
 app = FastAPI()
-
+Base.metadata.create_all(bind=engine)
 # ------------------- CORS -------------------
 app.add_middleware(
     CORSMiddleware,

@@ -5,6 +5,13 @@ type Props = {
   onClick: () => void
 }
 
+const formatPredictionDate = (value: string | null | undefined) => {
+  if (!value) return "--"
+
+  const parsed = new Date(value)
+  return Number.isNaN(parsed.getTime()) ? value : parsed.toLocaleString()
+}
+
 const getStatusColor = (status: string) => {
   switch (status) {
     case "CRITICAL":
@@ -98,9 +105,9 @@ export default function PredictionCard({ data, onClick }: Props) {
               </p>
             </div>
             <div className="col-span-2">
-              <p className="text-[10px] uppercase tracking-[0.16em] text-slate-400">Latest Time</p>
+              <p className="text-[10px] uppercase tracking-[0.16em] text-slate-400">Date</p>
               <p className={cn("text-[10px]", getStatusTextColor(data.health_status))}>
-                {data.latest_time || "--"}
+                {formatPredictionDate(data.date)}
               </p>
             </div>
           </div>

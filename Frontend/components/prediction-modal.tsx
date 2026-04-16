@@ -9,6 +9,13 @@ type Props = {
   component: string
 }
 
+const formatPredictionDate = (value: string | null | undefined) => {
+  if (!value) return "--"
+
+  const parsed = new Date(value)
+  return Number.isNaN(parsed.getTime()) ? value : parsed.toLocaleString()
+}
+
 const getStatusColor = (status: string) => {
   switch (status) {
     case "CRITICAL":
@@ -95,7 +102,7 @@ export default function PredictionModal({ data, onClose, component }: Props) {
                 >
                   <div className="flex items-center justify-between gap-2 border-b border-border/50 px-3 py-2.5">
                     <span className="text-xs font-semibold tracking-tight text-white">
-                      {item.time}
+                      {formatPredictionDate(item.date)}
                     </span>
 
                     <span
