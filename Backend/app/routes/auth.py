@@ -47,7 +47,7 @@ def register(data: UserCreate, db: Session = Depends(get_db)):
 
     except Exception as e:
         print("REGISTER ERROR:", str(e))
-        raise HTTPException(status_code=500, detail="Registration failed")
+        raise HTTPException(status_code=500, detail=str(e))
 
 
 # ------------------- LOGIN -------------------
