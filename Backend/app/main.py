@@ -11,7 +11,7 @@ from app.services.prediction_service import load_predictions_from_csv
 from app.websocket.ws import router as ws_router
 
 app = FastAPI()
-Base.metadata.create_all(bind=engine)
+
 # ------------------- CORS -------------------
 app.add_middleware(
     CORSMiddleware,
@@ -31,6 +31,10 @@ def load_initial_data():
         load_anomalies_from_csv(db)
         load_predictions_from_csv(db)
         print("Data loaded successfully")
+
+    except Exception as e:
+        print("Data loading error:", str(e))
+
     finally:
         db.close()
 
@@ -43,7 +47,25 @@ async def load_initial_data_in_background():
 # ------------------- STARTUP -------------------
 @app.on_event("startup")
 async def startup_event():
-    asyncio.create_task(load_initial_data_in_background())
+    try:
+        print("Starting app safely...")
+
+        # Create tables safely
+        Base.metadata.create_all(bind=engine)
+
+        # Load data in background
+        asyncio.create_task(load_initial_data_in_background())
+
+        print("Startup completed")
+
+    except Exception as e:
+        print("Startup error:", str(e))
+
+
+# ------------------- ROOT -------------------
+@app.get("/")
+def root():
+    return {"message": "Backend is running "}
 
 
 # ------------------- ROUTES -------------------
