@@ -10,13 +10,49 @@ router = APIRouter()
 pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
 
 
+# ------------------- SCHEMAS -------------------
 class LoginRequest(BaseModel):
     username: str
     password: str
 
 
+class RegisterRequest(BaseModel):
+    username: str
+    password: str
+
+
+# ------------------- REGISTER USER -------------------
+@router.post("/register")
+def register(data: RegisterRequest, db: Session = Depends(get_db)):
+
+    # Check if user exists
+    existing_user = db.query(User).filter(User.username == data.username).first()
+    if existing_user:
+        raise HTTPException(status_code=400, detail="Username already exists")
+
+    # Hash password
+    hashed_password = pwd_context.hash(data.password)
+
+    # Create user
+    new_user = User(
+        username=data.username,
+        password=hashed_password
+    )
+
+    db.add(new_user)
+    db.commit()
+    db.refresh(new_user)
+
+    return {
+        "message": "User created successfully",
+        "user": new_user.username
+    }
+
+
+# ------------------- LOGIN -------------------
 @router.post("/login")
 def login(data: LoginRequest, db: Session = Depends(get_db)):
+
     user = db.query(User).filter(User.username == data.username).first()
 
     if not user:
