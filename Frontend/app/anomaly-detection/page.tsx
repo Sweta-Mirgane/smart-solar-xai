@@ -7,6 +7,7 @@ import { ProtectedLayout } from "@/components/protected-layout"
 import { SystemLiveBadge } from "@/components/system-live-badge"
 import Calendar from "@/components/ui/calendar"
 import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover"
+import { API_BASE_URL, WS_LIVE_URL } from "@/lib/api"
 
 export default function AnomalyPage() {
   return (
@@ -22,7 +23,7 @@ function AnomalyPageContent() {
   const selectedDateKey = format(selectedDate, "yyyy-MM-dd")
 
   useEffect(() => {
-    fetch(`http://127.0.0.1:8000/anomalies/by-date/${selectedDateKey}`)
+    fetch(`${API_BASE_URL}/anomalies/by-date/${selectedDateKey}`)
       .then((res) => res.json())
       .then((data) => {
         const sortedData = [...data].sort(
@@ -41,7 +42,7 @@ function AnomalyPageContent() {
     const connect = () => {
       if (!isMounted) return
 
-      ws = new WebSocket("ws://localhost:8000/ws/live")
+      ws = new WebSocket(WS_LIVE_URL)
 
       ws.onopen = () => {
         console.log("WS Connected")

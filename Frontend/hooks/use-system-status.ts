@@ -1,6 +1,7 @@
 "use client"
 
 import { useEffect, useState } from "react"
+import { API_BASE_URL } from "@/lib/api"
 
 type SystemStatus = {
   online: boolean
@@ -31,7 +32,7 @@ export function useSystemStatus(pollIntervalMs = 10000) {
 
     const fetchStatus = async () => {
       try {
-        const response = await fetch("http://127.0.0.1:8000/system/status")
+        const response = await fetch(`${API_BASE_URL}/system/status`)
         const data = await response.json()
 
         if (isMounted) {

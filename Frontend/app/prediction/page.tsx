@@ -8,6 +8,7 @@ import { ProtectedLayout } from "@/components/protected-layout"
 import { SystemLiveBadge } from "@/components/system-live-badge"
 import Calendar from "@/components/ui/calendar"
 import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover"
+import { API_BASE_URL, WS_LIVE_URL } from "@/lib/api"
 import { cn } from "@/lib/utils"
 
 const COMPONENT_ORDER = ["inverter", "wms", "ht_mfm", "lt_mfm"]
@@ -34,7 +35,7 @@ function PredictionPageContent() {
   const selectedDateKey = format(selectedDate, "yyyy-MM-dd")
 
   useEffect(() => {
-    fetch(`http://127.0.0.1:8000/predictions/by-date/${selectedDateKey}`)
+    fetch(`${API_BASE_URL}/predictions/by-date/${selectedDateKey}`)
       .then((res) => res.json())
       .then((result) => {
         const latestByComponent = COMPONENT_ORDER
@@ -56,7 +57,7 @@ function PredictionPageContent() {
     const connect = () => {
       if (!isMounted) return
 
-      ws = new WebSocket("ws://localhost:8000/ws/live")
+      ws = new WebSocket(WS_LIVE_URL)
 
       ws.onopen = () => {
         console.log("WS Connected")
@@ -110,7 +111,7 @@ function PredictionPageContent() {
 
   const handleClick = async (component: string) => {
     const res = await fetch(
-      `http://127.0.0.1:8000/predictions/component/${component}/${selectedDateKey}`
+      `${API_BASE_URL}/predictions/component/${component}/${selectedDateKey}`
     )
     const result = await res.json()
 

@@ -7,6 +7,7 @@ import { InverterCard } from "@/components/inverter-card"
 import { DetailModal } from "@/components/detail-modal"
 import { SystemLiveBadge } from "@/components/system-live-badge"
 import Calendar from "@/components/ui/calendar"
+import { API_BASE_URL, WS_LIVE_URL } from "@/lib/api"
 import { cn } from "@/lib/utils"
 
 export default function FaultDetectionPage() {
@@ -40,7 +41,7 @@ function FaultDetectionPageContent() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const res = await fetch(`http://127.0.0.1:8000/faults/by-date/${selectedDateKey}`)
+        const res = await fetch(`${API_BASE_URL}/faults/by-date/${selectedDateKey}`)
         const data = await res.json()
 
         console.log("UPDATED DATA:", data)
@@ -64,7 +65,7 @@ function FaultDetectionPageContent() {
     const connect = () => {
       if (!isMounted) return
 
-      ws = new WebSocket("ws://localhost:8000/ws/live")
+      ws = new WebSocket(WS_LIVE_URL)
 
       ws.onopen = () => {
         console.log("WS Connected")
