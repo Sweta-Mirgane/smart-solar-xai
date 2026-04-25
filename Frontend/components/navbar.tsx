@@ -3,7 +3,6 @@
 import Link from "next/link"
 import { usePathname, useRouter } from "next/navigation"
 import { useAuth } from "@/lib/auth-context"
-import { useSystemStatus } from "@/hooks/use-system-status"
 import { cn } from "@/lib/utils"
 import { Sun, AlertTriangle, Activity, TrendingUp, LogOut } from "lucide-react"
 
@@ -18,7 +17,6 @@ export function Navbar() {
   const pathname = usePathname()
   const router = useRouter()
   const { logout } = useAuth()
-  const { systemStatus } = useSystemStatus()
 
   const handleLogout = () => {
     logout()
@@ -61,10 +59,10 @@ export function Navbar() {
             <div
               className={cn(
                 "h-2 w-2 rounded-full",
-                systemStatus.online ? "bg-status-normal animate-pulse" : "bg-status-critical"
+                "bg-status-normal animate-pulse"
               )}
             />
-            <span>{systemStatus.online ? "System Online" : "System Offline"}</span>
+            <span>System Online</span>
           </div>
           <button
             onClick={handleLogout}
